@@ -1,0 +1,339 @@
+                           НАЛАШТУВАННЯ РЕДАКТОРА "VISUAL STUDIO CODE" / 20.04.2025
+
+
+
+// Перелік плагінів:
+
+1. advanced-new-file;  
+// Плагін дозволяє швидко створювати нові файли та папки в будь-якому місці проекту без необхідності вручну переходити в потрібну директорію. Він економить час, дозволяючи одразу задавати шлях і назву нового файлу через командний рядок VS Code.
+
+2. All Autocomplete;  
+// Плагін розширює стандартну автодоповнення VS Code, скануючи всі відкриті файли проекту для пропозицій. Це зручний інструмент для швидкого доступу до змінних, функцій або інших ключових слів, які використовуються в різних файлах, покращуючи продуктивність і зменшуючи кількість помилок під час кодування.
+
+3. Auto Close Tag;  
+// Плагін автоматично закриває HTML та XML теги, коли ви відкриваєте їх. Це зменшує кількість ручної роботи та допомагає уникнути помилок у синтаксисі, забезпечуючи швидке і точне написання тегів у мовах розмітки.
+
+4. Auto Complete Tag; 
+// Плагін автоматично завершує відкриті теги, додаючи закриваючий тег одночасно з відкриттям. Це дуже зручно при написанні HTML, XML або подібних мов розмітки, оскільки прискорює роботу і допомагає уникнути помилок через забуті закриваючі теги.
+
+5. Auto Rename Tag;  
+// Плагін автоматично перейменовує парні HTML або XML теги одночасно. Якщо ви змінюєте назву відкриваючого тегу, закриваючий тег змінюється автоматично. Це зручно для підтримання коректної структури розмітки та уникнення синтаксичних помилок.
+
+6. Autoprefixer;  
+// Плагін автоматично додає вендорні префікси до CSS властивостей, щоб забезпечити кросбраузерну підтримку стилів. Він аналізує ваш CSS і додає префікси тільки там, де це потрібно, спрощуючи процес оптимізації стилів для різних браузерів і зменшуючи кількість ручної роботи.
+
+7. Babel JavaScript; 
+// Додає підтримку Babel для сучасного JavaScript, включаючи JSX та ES6+, з покращеною підсвіткою синтаксису та іншими функціями для зручнішої роботи.
+
+8. Beautify css/sass/scss/less; 
+// Форматує CSS, SASS, SCSS, та LESS код, забезпечуючи його акуратність і читабельність.
+
+9. Bracket Pair Colorization Toggler; 
+// Підсвічує відповідні дужки різними кольорами, що робить код більш структурованим і зрозумілим.
+
+10. Class autocomplete for HTML; 
+// Пропонує автодоповнення класів з ваших стилів у файлах HTML, що прискорює верстку та зменшує помилки.
+
+11. className Completion in CSS; 
+// Забезпечує автодоповнення імен класів у CSS та JavaScript файлах, зокрема для JSX та className.
+
+12. Code Runner; 
+// Дозволяє запускати код на різних мовах (JavaScript, Python, PHP тощо) прямо з редактора, що спрощує тестування.
+
+13. Color Info; 
+// Відображає інформацію про кольори у вашому коді, включаючи їх візуальне представлення та коди кольорів.
+
+14. CSS Navigation; 
+// Дозволяє швидко переходити між CSS правилами та їх використанням у HTML файлах.
+
+15. CSScomb; 
+// Інструмент для впорядкування CSS властивостей у стилях за заданими правилами, покращуючи читабельність і структуру.
+
+16. eCSStractor for VSCode; 
+// Витягує CSS властивості з HTML файлів, дозволяючи швидко створювати стилі на основі розмітки.
+
+17. EditorConfig for VS Code; 
+// Зчитує файли .editorconfig для налаштування редактора відповідно до загальних параметрів проекту.
+
+18. GitLens — Git supercharged
+// Додає візуальне відстеження змін у коді: хто, коли і навіщо змінив кожен рядок, прямо в редакторі.
+
+19. Highlight Matching Tag; 
+// Підсвічує відповідні відкриваючі та закриваючі теги в HTML і XML, полегшуючи навігацію та виправлення помилок.
+
+20. HTML CSS Support; 
+// Додає автодоповнення для CSS у HTML файлах, допомагаючи швидше працювати зі стилями без необхідності перемикатися між файлами.
+
+21. HTML to CSS autocompletion; 
+// Автодоповнення для CSS, що базується на HTML елементах, дозволяє швидко застосовувати стилі до елементів.
+
+22. Image preview; 
+// Показує попередній перегляд зображень у вашому коді, коли ви наводите курсор на шлях до файлу зображення.
+
+23. IntelliSense for CSS class names in HTML; 
+// Пропонує автодоповнення імен класів із CSS у HTML файлах, спрощуючи роботу з розміткою та стилями.
+
+24. JavaScript Debugger (Nightly); 
+// Остання нічна версія дебагера для JavaScript, що забезпечує покращений досвід налагодження коду.
+
+25. Live Server; 
+// Запускає локальний сервер і забезпечує живе оновлення сторінки в браузері при збереженні файлів, що спрощує процес розробки.
+
+26. Lorem ipsum; 
+// Генерує текст "Lorem ipsum" для використання як заглушку при дизайні веб-сторінок.
+
+27. Material Icon Theme; 
+// Змінює іконки файлів і директорій у VS Code.
+
+28. "One Dark Pro"
+// Тема для редактора. Рекомендується в цій темі обрати "One Dark Pro"
+
+29. open in browser; 
+// Додає можливість відкривати HTML файли безпосередньо у браузері з VS Code.
+
+30. Path Autocomplete; 
+// Пропонує автодоповнення шляхів до файлів і папок, що полегшує навігацію та вставку шляхів у коді.
+
+31. Path Intellisense; 
+// Розширює автодоповнення для шляхів до файлів у проекті, що прискорює написання коду.
+
+32. Prettier - Code formatter; 
+// Автоматично форматує ваш код відповідно до стандартів Prettier, забезпечуючи чистоту та читабельність коду.
+
+33. px to rem & rpx & vw (cssrem); 
+// Конвертує значення px у rem, rpx, або vw, що допомагає створювати адаптивні стилі.
+
+34. Start git-bash; 
+// Дозволяє запускати Git Bash безпосередньо з VS Code для керування версіями за допомогою Git.
+
+35. Svg Preview;
+// Показує попередній перегляд SVG файлів прямо в редакторі, що зручно для швидкої перевірки графіки.
+
+36. CSS Peek
+// Допомагає швидко перейти з html до css при затисканні Ctrl та натисканні по назві класу в html документі.
+
+37. PHP Intelephense
+// Додає розумну підсвітку синтаксису PHP, автодоповнення, перехід до визначення, підказки по PHPDoc, аналіз коду та багато іншого.
+
+38. PHP CS Fixer
+// Розширення для автоматичного форматування PHP-коду за допомогою правил стилю (PSR-12, Symfony тощо).
+// Після встановлення, бажано зробити його глобально за допомогою команди: composer global require friendsofphp/php-cs-fixer
+
+39. Code Spell Checker
+// Легкий, але потужний плагін для VS Code, який перевіряє орфографію в коді — змінні, коментарі, рядки.
+
+40. Ukrainian - Code Spell Checker
+// Словник української мови для редактора.
+
+41. Tailwind CSS IntelliSense
+// Мастхев плагін для VS Code, якщо працюєш з Tailwind CSS. Робить твоє життя простішим і швидшим.
+
+42. Font Awesome Auto-complete & Preview
+// Цей плагін додає автодоповнення та прев’ю іконок Font Awesome прямо в редакторі. Працює з HTML, JSX, Vue тощо.
+
+43. JavaScript (ES6) code snippets
+// Цей плагін додає набір готових сніпетів для сучасного JavaScript (ES6+) у VS Code
+
+44. Multiple clipboards for VSCode
+// Розширює стандартний буфер обміну VSCode до безсмертного багажа з копіпастами.
+
+45. SCSS Formatter
+// Автоматично вирівнює, структуризує та чистить SCSS-код, щоб він був читабельним і послідовним.
+
+
+// Налаштування settings.json:
+
+{
+	// Settings for "Git"
+	"git.ignoreMissingGitWarning": true,
+	"git.autofetch": true,
+
+	// Workspace settings
+	"workbench.statusBar.visible": true,
+	"workbench.startupEditor": "none",
+	"workbench.list.smoothScrolling": true,
+
+	// File settings
+	"files.defaultLanguage": "html",
+	"files.autoSave": "onFocusChange",
+
+	// Settings for "Emmet"
+	"emmet.triggerExpansionOnTab": true,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"typescript": "typescriptreact"
+	},
+	"emmet.preferences": {
+		"output.reverseAttributes": true
+	},
+
+	// Settings for "Live Server"
+	"liveServer.settings.donotShowInfoMsg": true,
+
+	// Editor settings
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontSize": 17,
+	"editor.lineHeight": 1.7,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.wordWrap": "on",
+	"editor.wordWrapColumn": 80,
+	"editor.tabSize": 2,
+	"editor.formatOnSave": true,
+	"editor.smoothScrolling": true,
+	"editor.glyphMargin": false,
+	"editor.linkedEditing": true,
+	"editor.padding.top": 15,
+	"editor.scrollBeyondLastLine": false,
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": true,
+		"strings": true
+	},
+	"editor.codeLens": true,
+	"editor.tabCompletion": "on",
+	"editor.insertSpaces": false,
+
+	// Terminal settings
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.lineHeight": 1.4,
+	"terminal.integrated.smoothScrolling": true,
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.profiles.windows": {
+		"Git Bash": {
+			"path": "C:\\Program Files\\Git\\bin\\bash.exe",
+			"icon": "terminal-bash"
+		}
+	},
+
+	// Formatters settings
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	// Settings for "Prettier"
+	"prettier.useTabs": true,
+	"prettier.semi": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+	"prettier.arrowParens": "avoid",
+	"prettier.printWidth": 80,
+	"prettier.tabWidth": 2,
+
+	// Settings for "PHP Intelephense"
+	"intelephense.files.exclude": [
+		"**/.git/**",
+		"**/node_modules/**",
+		"**/vendor/**",
+		"**/storage/**"
+	],
+	"intelephense.diagnostics.enable": true,
+	"intelephense.format.enable": false,
+	"intelephense.completion.insertUseDeclaration": true,
+
+	// Settings for "PHP CS Fixer"
+	"php-cs-fixer.executablePath": "php-cs-fixer", // if globally
+	"php-cs-fixer.rules": "@PSR12",
+	"php-cs-fixer.onsave": true,
+
+	// Settings for "Code Spell Checker"
+	"cSpell.language": "en,uk",
+	"cSpell.ignorePaths": ["**/node_modules/**", "**/dist/**", "**/.vscode/**"],
+	"editor.autoDetectLanguage": true,
+
+	// Settings for "TailwindCSS"
+	"tailwindCSS.includeLanguages": {
+		"plaintext": "html",
+		"javascript": "javascript",
+		"typescript": "typescript",
+		"javascriptreact": "javascript",
+		"typescriptreact": "typescript"
+	},
+	"tailwindCSS.experimental.configFile": "./tailwind.config.js",
+	"tailwindCSS.experimental.classRegex": [
+		["tw`([^`]*)", 1],
+		["tw=\"([^\"]*)", 1],
+		["tw={\"([^\"}]*)", 1],
+		["tw\\.\\w+`([^`]*)", 1],
+		["['\"]([^'\"]*)['\"]", 1]
+	],
+	"tailwindCSS.validate": true,
+
+	// Settings for "Font Awesome Auto-complete & Preview"
+	"font-awesome-autocomplete.enableAutocompletion": true,
+	"font-awesome-autocomplete.enableIconPreview": true,
+	"font-awesome-autocomplete.version": "6",
+
+	// Settings for "Multiple clipboards for VSCode"
+	"multipleClipboards.historySize": 50,
+	"multipleClipboards.pasteOnSelect": true,
+	"multipleClipboards.saveClipboardHistory": true,
+
+	// Other settings
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.compactFolders": false,
+	"vsicons.dontShowNewVersionMessage": true,
+	"http.proxySupport": "fallback",
+	"security.workspace.trust.untrustedFiles": "open",
+	"diffEditor.renderGutterMenu": false,
+	"php.validate.executablePath": "E:\\OSPanel\\modules\\PHP-8.3\\PHP\\php.exe",
+	"security.promptForLocalFileProtocolHandling": false,
+	"security.promptForRemoteFileProtocolHandling": false,
+	"security.workspace.trust.emptyWindow": false,
+	"security.workspace.trust.enabled": false,
+	"security.workspace.trust.startupPrompt": "never",
+	"css.format.spaceAroundSelectorSeparator": true,
+	"css.lint.float": "warning",
+	"scss.format.spaceAroundSelectorSeparator": true,
+	"scss.lint.float": "warning",
+	"php.validate.enable": true,
+	"oneDarkPro.bold": true,
+	"open-in-browser.default": "chrome",
+	"js/ts.implicitProjectConfig.checkJs": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"settingsSync.ignoredExtensions": ["equinusocio.vsc-material-theme"],
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"workbench.colorTheme": "One Dark Pro",
+	"[html]": {
+		"editor.rulers": [80],
+		"editor.wordWrap": "wordWrapColumn",
+		"editor.wordWrapColumn": 80
+	},
+	"[javascript]": {
+		"editor.rulers": [80],
+		"editor.wordWrap": "wordWrapColumn",
+		"editor.wordWrapColumn": 80
+	},
+	"[php]": {
+		"editor.rulers": [80],
+		"editor.wordWrap": "wordWrapColumn",
+		"editor.wordWrapColumn": 80
+	},
+	"editor.minimap.enabled": false
+}
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
