@@ -1,0 +1,188 @@
+{
+	// Settings for "Git"
+	"git.ignoreMissingGitWarning": true,
+	"git.autofetch": true,
+
+	// Workspace settings
+	"workbench.statusBar.visible": true,
+	"workbench.startupEditor": "none",
+	"workbench.list.smoothScrolling": true,
+
+	// File settings
+	"files.defaultLanguage": "html",
+	"files.autoSave": "onFocusChange",
+
+	// Settings for "Emmet"
+	"emmet.triggerExpansionOnTab": true,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"typescript": "typescriptreact"
+	},
+	"emmet.preferences": {
+		"output.reverseAttributes": true
+	},
+
+	// Settings for "Live Server"
+	"liveServer.settings.donotShowInfoMsg": true,
+
+	// Editor settings
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontSize": 17,
+	"editor.lineHeight": 1.7,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.wordWrap": "on",
+	"editor.wordWrapColumn": 80,
+	"editor.tabSize": 2,
+	"editor.formatOnSave": true,
+	"editor.smoothScrolling": true,
+	"editor.glyphMargin": false,
+	"editor.linkedEditing": true,
+	"editor.padding.top": 15,
+	"editor.scrollBeyondLastLine": false,
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": true,
+		"strings": true
+	},
+	"editor.codeLens": true,
+	"editor.tabCompletion": "on",
+	"editor.insertSpaces": false,
+
+	// Terminal settings
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.lineHeight": 1.4,
+	"terminal.integrated.smoothScrolling": true,
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.profiles.windows": {
+		"Git Bash": {
+			"path": "C:\\Program Files\\Git\\bin\\bash.exe",
+			"icon": "terminal-bash"
+		}
+	},
+
+	// Formatters settings
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	// Settings for "Prettier"
+	"prettier.useTabs": true,
+	"prettier.semi": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+	"prettier.arrowParens": "avoid",
+	"prettier.printWidth": 80,
+	"prettier.tabWidth": 2,
+
+	// Settings for "PHP Intelephense"
+	"intelephense.files.exclude": [
+		"**/.git/**",
+		"**/node_modules/**",
+		"**/vendor/**",
+		"**/storage/**"
+	],
+	"intelephense.diagnostics.enable": true,
+	"intelephense.format.enable": false,
+	"intelephense.completion.insertUseDeclaration": true,
+
+	// Settings for "PHP CS Fixer"
+	"php-cs-fixer.executablePath": "php-cs-fixer", // if globally
+	"php-cs-fixer.rules": "@PSR12",
+	"php-cs-fixer.onsave": true,
+
+	// Settings for "Code Spell Checker"
+	"cSpell.language": "en,uk,ru",
+	"cSpell.ignorePaths": ["**/node_modules/**", "**/dist/**", "**/.vscode/**"],
+	"editor.autoDetectLanguage": true,
+
+	// Settings for "TailwindCSS"
+	"tailwindCSS.includeLanguages": {
+		"plaintext": "html",
+		"javascript": "javascript",
+		"typescript": "typescript",
+		"javascriptreact": "javascript",
+		"typescriptreact": "typescript"
+	},
+	"tailwindCSS.experimental.configFile": "./tailwind.config.js",
+	"tailwindCSS.experimental.classRegex": [
+		["tw`([^`]*)", 1],
+		["tw=\"([^\"]*)", 1],
+		["tw={\"([^\"}]*)", 1],
+		["tw\\.\\w+`([^`]*)", 1],
+		["['\"]([^'\"]*)['\"]", 1]
+	],
+	"tailwindCSS.validate": true,
+
+        // Settings for "Error Lens"
+	"errorLens.enabled": true,
+	"errorLens.errorColor": "#FF0000", // red
+	"errorLens.warningColor": "#FFA500", // orange
+	"errorLens.infoColor": "#1E90FF", // blue
+	"errorLens.fontSize": "14px",
+	"errorLens.showErrorsInStatusBar": true,
+
+	// Settings for "Font Awesome Auto-complete & Preview"
+	"font-awesome-autocomplete.enableAutocompletion": true,
+	"font-awesome-autocomplete.enableIconPreview": true,
+	"font-awesome-autocomplete.version": "6",
+
+	// Settings for "Multiple clipboards for VSCode"
+	"multipleClipboards.historySize": 50,
+	"multipleClipboards.pasteOnSelect": true,
+	"multipleClipboards.saveClipboardHistory": true,
+
+	// Other settings
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.compactFolders": false,
+	"vsicons.dontShowNewVersionMessage": true,
+	"http.proxySupport": "fallback",
+	"security.workspace.trust.untrustedFiles": "open",
+	"diffEditor.renderGutterMenu": false,
+	"php.validate.executablePath": "E:\\OSPanel\\modules\\PHP-8.3\\PHP\\php.exe",
+	"security.promptForLocalFileProtocolHandling": false,
+	"security.promptForRemoteFileProtocolHandling": false,
+	"security.workspace.trust.emptyWindow": false,
+	"security.workspace.trust.enabled": false,
+	"security.workspace.trust.startupPrompt": "never",
+	"css.format.spaceAroundSelectorSeparator": true,
+	"css.lint.float": "warning",
+	"scss.format.spaceAroundSelectorSeparator": true,
+	"scss.lint.float": "warning",
+	"php.validate.enable": true,
+	"oneDarkPro.bold": true,
+	"open-in-browser.default": "chrome",
+	"js/ts.implicitProjectConfig.checkJs": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"settingsSync.ignoredExtensions": ["equinusocio.vsc-material-theme"],
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"workbench.colorTheme": "One Dark Pro",
+	"[html]": {
+		"editor.rulers": [80],
+		"editor.wordWrap": "wordWrapColumn",
+		"editor.wordWrapColumn": 80
+	},
+	"[javascript]": {
+		"editor.rulers": [80],
+		"editor.wordWrap": "wordWrapColumn",
+		"editor.wordWrapColumn": 80
+	},
+	"[php]": {
+		"editor.rulers": [80],
+		"editor.wordWrap": "wordWrapColumn",
+		"editor.wordWrapColumn": 80
+	},
+	"editor.minimap.enabled": false
+}
