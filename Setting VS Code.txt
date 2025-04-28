@@ -149,8 +149,7 @@ composer global require friendsofphp/php-cs-fixer
 // Auto-formats SCSS code for clean, structured, and human-readable styles.
 
 47. Error Lens
-// It highlights errors and warnings in bold right in your code, not just in the console. Instead of having 
-to look for errors, they scream at you.
+// It highlights errors and warnings in bold right in your code, not just in the console.
 
 // --------------------------------------------------------------------------------------------------------
 
