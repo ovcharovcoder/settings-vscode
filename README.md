@@ -7,6 +7,7 @@ As a result, you spend less time on technical nitpicking and more on logic and c
 tedious grunt work and becomes a fast, controlled process.
 
 The archive contains fonts that are most suitable for writing code.
+The Plugins.txt file contains a list and description of recommended plugins.
 
 
 
