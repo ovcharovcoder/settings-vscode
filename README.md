@@ -11,6 +11,9 @@ The Plugins.txt file contains a list and description of recommended plugins.<br>
 File install-extensions.sh is a bash script for installing all plugins. <br>
 The settings.json file contains editor settings.<br>
 
+To set up the editor, you need to download all the files to your computer, install the fonts, 
+then install all the plugins, and only after that make changes to the editor settings.
+
 
 
 
