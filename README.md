@@ -1,21 +1,23 @@
 # VS Code settings for web developer / 28.04.2025
 
-These settings and plugins for VS Code significantly boost your productivity, automate routine tasks, and help you write clean, organized code. They take care of tons of small stuff: creating files, closing tags, 
-autocompleting classes and paths, formatting code, and even spell-checking variables and comments.
+These VS Code settings and plugins are designed to seriously boost your productivity, automate boring tasks, and help you write clean, organized code. They handle tons of routine work — creating files, closing and renaming tags, autocompleting classes and paths, formatting code, checking spelling in variables and comments — so you can focus on logic and creativity instead of technical busywork.
 
-As a result, you spend less time on technical nitpicking and more on logic and creativity. Your code looks better, you work faster, make fewer mistakes, and see your changes instantly. Development stops feeling like 
-tedious grunt work and becomes a fast, controlled process.
+The result? Your code looks cleaner, you work faster, make fewer mistakes, and instantly see your changes. Development feels less like grinding gears and more like smooth, controlled racing.
 
-The archive contains fonts that are most suitable for writing code.<br>
-The Plugins.txt file contains a list and description of recommended plugins.<br>
-File install-extensions.sh is a bash script for installing all plugins. 
-To install, use the following command: bash install-extensions.sh <br>
-The settings.json file contains editor settings.<br>
+<h2>Inside the archive:</h2>
+<ul>
+  <li>Fonts — handpicked for writing clean, readable code.</li>
+  <li>Plugins.txt — a full list and descriptions of recommended plugins.</li>
+  <li>install-extensions.sh — a bash script to install all plugins at once. Just run: bash install-extensions.sh.</li>
+  <li>settings.json — ready-to-go editor settings.</li>  
+</ul>
 
-To set up the editor, you need to download all the files to your computer, install the fonts, 
-then install all the plugins, and only after that make changes to the editor settings.
-
-
-
+<h2>Setup steps:</h2>
+<ol>
+  <li>Download all files to your computer.</li>
+  <li>Install the provided fonts.</li>
+  <li>Install all the plugins (manually or using the script).</li>
+  <li>Only after that — import the editor settings.</li>
+</ol>
 
 <img src="1.jpg" alt="banner">
