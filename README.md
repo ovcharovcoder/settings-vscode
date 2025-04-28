@@ -1,4 +1,4 @@
-# SETTING UP THE "VISUAL STUDIO CODE" EDITOR / 28.04.2025
+# VS Code settings for web developer / 28.04.2025
 
 These settings and plugins for VS Code significantly boost your productivity, automate routine tasks, and help you write clean, organized code. They take care of tons of small stuff: creating files, closing tags, 
 autocompleting classes and paths, formatting code, and even spell-checking variables and comments.
