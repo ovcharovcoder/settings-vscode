@@ -8,7 +8,8 @@ tedious grunt work and becomes a fast, controlled process.
 
 The archive contains fonts that are most suitable for writing code.<br>
 The Plugins.txt file contains a list and description of recommended plugins.<br>
-File install-extensions.sh is a bash script for installing all plugins. <br>
+File install-extensions.sh is a bash script for installing all plugins. 
+To install, use the following command: bash install-extensions.sh <br>
 The settings.json file contains editor settings.<br>
 
 To set up the editor, you need to download all the files to your computer, install the fonts, 
