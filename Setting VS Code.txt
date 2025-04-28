@@ -152,6 +152,64 @@ composer global require friendsofphp/php-cs-fixer
 // It highlights errors and warnings in bold right in your code, not just in the console. Instead of having 
 to look for errors, they scream at you.
 
+// --------------------------------------------------------------------------------------------------------
+
+You can install these plugins all at once via the terminal, collecting them in a single file "install-extensions.sh", 
+and then enter the command: bash install-extensions.sh. 
+Or install one by one.
+
+#!/bin/bash
+code --install-extension jeremyrathbone.advanced-new-file
+code --install-extension alloet.all-autocomplete
+code --install-extension formulahendry.auto-close-tag
+code --install-extension formulahendry.auto-complete-tag
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension mrmlnc.vscode-autoprefixer
+code --install-extension babeljs.babel-vscode
+code --install-extension HookyQR.beautify
+code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension joshburlington.class-autocomplete-for-html
+code --install-extension joshburlington.classname-completion-in-css
+code --install-extension formulahendry.code-runner
+code --install-extension naumovs.color-info
+code --install-extension adammaras.css-navigation
+code --install-extension aldasque.csscomb
+code --install-extension ecsstractor.vscode-ecsstractor
+code --install-extension editorconfig.editorconfig
+code --install-extension eamodio.gitlens
+code --install-extension zahaar.highlight-matching-tag
+code --install-extension ecmel.vscode-html-css
+code --install-extension htmlhint.htmlhint
+code --install-extension DavidAnson.vscode-markdownlint
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension esbenp.prettier-vscode
+code --install-extension zhuangtongfa.material-theme
+code --install-extension ritwickdey.LiveServer
+code --install-extension adammaras.lorem-ipsum
+code --install-extension pkief.material-icon-theme
+code --install-extension zhuangtongfa.one-dark-pro
+code --install-extension techer.open-in-browser
+code --install-extension jonasjacek.path-autocomplete
+code --install-extension christian-kohler.path-intellisense
+code --install-extension esbenp.prettier-vscode
+code --install-extension steoates.autoimport
+code --install-extension davidvassallo.vscode-pd
+code --install-extension mimodalo.svg-preview
+code --install-extension bradlc.vscode-css-peek
+code --install-extension bmewburn.vscode-intelephense-client
+code --install-extension jakeboone02.php-cs-fixer
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension nathangozina.code-spell-checker-ukrainian
+code --install-extension nathangozina.code-spell-checker-russian
+code --install-extension bradlc.tailwindcss-intellisense
+code --install-extension mikael.lets-go
+code --install-extension nathangozina.font-awesome-auto-complete-preview
+code --install-extension xabikos.JavaScript
+code --install-extension ramsaydavid.vscode-multiple-clipboards
+code --install-extension adammaras.scss-formatter
+code --install-extension usernamehw.error-lens
+
+// --------------------------------------------------------------------------------------------------------
 
 // Settings settings.json:
 
