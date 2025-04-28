@@ -6,6 +6,7 @@ autocompleting classes and paths, formatting code, and even spell-checking varia
 As a result, you spend less time on technical nitpicking and more on logic and creativity. Your code looks better, you work faster, make fewer mistakes, and see your changes instantly. Development stops feeling like 
 tedious grunt work and becomes a fast, controlled process.
 
+--------------------------------------------------------------------------------------------------------
 
 List of plugins with description:
 
