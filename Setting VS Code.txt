@@ -211,7 +211,8 @@ code --install-extension usernamehw.error-lens
 
 // --------------------------------------------------------------------------------------------------------
 
-This is a list of settings that need to be done after installing the plugins. Just copy and paste into your editor.
+This is a list of settings that need to be done after installing the plugins. 
+Just copy and paste into your editor.
 
 // Settings settings.json:
 
