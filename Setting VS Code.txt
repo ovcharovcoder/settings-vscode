@@ -148,6 +148,10 @@ composer global require friendsofphp/php-cs-fixer
 46. SCSS Formatter
 // Auto-formats SCSS code for clean, structured, and human-readable styles.
 
+47. Error Lens
+// It highlights errors and warnings in bold right in your code, not just in the console. Instead of having 
+to look for errors, they scream at you.
+
 
 // Settings settings.json:
 
@@ -277,6 +281,14 @@ composer global require friendsofphp/php-cs-fixer
 		["['\"]([^'\"]*)['\"]", 1]
 	],
 	"tailwindCSS.validate": true,
+
+        // Settings for "Error Lens"
+	"errorLens.enabled": true,
+	"errorLens.errorColor": "#FF0000", // red
+	"errorLens.warningColor": "#FFA500", // orange
+	"errorLens.infoColor": "#1E90FF", // blue
+	"errorLens.fontSize": "14px",
+	"errorLens.showErrorsInStatusBar": true,
 
 	// Settings for "Font Awesome Auto-complete & Preview"
 	"font-awesome-autocomplete.enableAutocompletion": true,
