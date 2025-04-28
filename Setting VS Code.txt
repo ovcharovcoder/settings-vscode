@@ -406,17 +406,3 @@ Settings settings.json:
 	},
 	"editor.minimap.enabled": false
 }
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
