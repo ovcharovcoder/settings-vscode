@@ -7,151 +7,153 @@ As a result, you spend less time on technical nitpicking and more on logic and c
 tedious grunt work and becomes a fast, controlled process.
 
 
-// List of plugins with description:
+List of plugins with description:
 
 1. advanced-new-file
-// Plugin for quickly creating new files and folders anywhere in the project without manually navigating directories. Saves time by allowing you to set the path and file name directly through the VS Code command line.
+Plugin for quickly creating new files and folders anywhere in the project without manually navigating directories. Saves time by allowing you 
+to set the path and file name directly through the VS Code command line.
 
 2. All Autocomplete
-// Expands VS Code's default autocomplete by scanning all open project files for suggestions. Handy for quick access to variables, functions, and keywords across files, boosting productivity and reducing coding errors.
+Expands VS Code's default autocomplete by scanning all open project files for suggestions. Handy for quick access to variables, functions,
+and keywords across files, boosting productivity and reducing coding errors.
 
 3. Auto Close Tag
-// Automatically closes HTML and XML tags after you open them. Cuts down manual work and helps avoid syntax mistakes.
+Automatically closes HTML and XML tags after you open them. Cuts down manual work and helps avoid syntax mistakes.
 
 4. Auto Complete Tag
-// Automatically finishes open tags by adding the closing tag immediately. Super useful for HTML, XML, and other markup languages.
+Automatically finishes open tags by adding the closing tag immediately. Super useful for HTML, XML, and other markup languages.
 
 5. Auto Rename Tag
-// When you rename an opening HTML/XML tag, the closing tag updates automatically. Keeps your markup structure clean and healthy.
+When you rename an opening HTML/XML tag, the closing tag updates automatically. Keeps your markup structure clean and healthy.
 
 6. Autoprefixer
-// Automatically adds vendor prefixes to your CSS for cross-browser support. Analyzes your styles and adds prefixes only where needed.
+Automatically adds vendor prefixes to your CSS for cross-browser support. Analyzes your styles and adds prefixes only where needed.
 
 7. Babel JavaScript
-// Adds Babel support for modern JavaScript (including JSX and ES6+), with improved syntax highlighting and goodies.
+Adds Babel support for modern JavaScript (including JSX and ES6+), with improved syntax highlighting and goodies.
 
 8. Beautify css/sass/scss/less
-// Formats your CSS, SASS, SCSS, and LESS code to keep it neat and readable.
+Formats your CSS, SASS, SCSS, and LESS code to keep it neat and readable.
 
 9. Bracket Pair Colorization Toggler
-// Colors matching brackets differently, making your code look like a beautiful, organized jungle.
+Colors matching brackets differently, making your code look like a beautiful, organized jungle.
 
 10. Class autocomplete for HTML
-// Autocompletes class names from your styles right inside HTML files, speeding up markup work.
+Autocompletes class names from your styles right inside HTML files, speeding up markup work.
 
 11. className Completion in CSS
-// Autocompletes class names in CSS and JS files, especially handy for JSX and className attributes.
+Autocompletes class names in CSS and JS files, especially handy for JSX and className attributes.
 
 12. Code Runner
-// Run code in different languages (JS, Python, PHP, etc.) directly from the editor. Instant testing, like instant noodles.
+Run code in different languages (JS, Python, PHP, etc.) directly from the editor. Instant testing, like instant noodles.
 
 13. Color Info
-// Displays color info, visual previews, and color codes in your code.
+Displays color info, visual previews, and color codes in your code.
 
 14. CSS Navigation
-// Jump quickly between CSS rules and their uses in HTML files.
+Jump quickly between CSS rules and their uses in HTML files.
 
 15. CSScomb
-// Sorts CSS properties by defined rules, making your stylesheets as tidy as grandma’s living room.
+Sorts CSS properties by defined rules, making your stylesheets as tidy as grandma’s living room.
 
 16. eCSStractor for VSCode
-// Extracts CSS properties from HTML files. Magic for quickly building styles based on markup.
+Extracts CSS properties from HTML files. Magic for quickly building styles based on markup.
 
 17. EditorConfig for VS Code
-// Reads .editorconfig files and configures your editor settings according to project rules. Peace and order.
+Reads .editorconfig files and configures your editor settings according to project rules. Peace and order.
 
 18. GitLens — Git supercharged
-// Shows who changed what, when, and why — right in your code. Git detective mode: ON.
+Shows who changed what, when, and why — right in your code. Git detective mode: ON.
 
 19. Highlight Matching Tag
-// Highlights matching opening and closing tags in HTML/XML. No more playing hide and seek with your tags.
+Highlights matching opening and closing tags in HTML/XML. No more playing hide and seek with your tags.
 
 20. HTML CSS Support
-// Adds CSS autocomplete in HTML files, so you stay focused without file-hopping.
+Adds CSS autocomplete in HTML files, so you stay focused without file-hopping.
 
 21. HTML to CSS autocompletion
-// Autocompletes CSS based on your HTML elements. Instant style hookup.
+Autocompletes CSS based on your HTML elements. Instant style hookup.
 
 22. Image preview
-// Hover over an image path to see a live preview. No blind guesses.
+Hover over an image path to see a live preview. No blind guesses.
 
 23. IntelliSense for CSS class names in HTML
-// Autocompletes CSS class names in HTML, making markup styling as smooth as butter.
+Autocompletes CSS class names in HTML, making markup styling as smooth as butter.
 
 24. JavaScript Debugger (Nightly)
-// The latest, nightly version of JS debugger for an even better code debugging experience.
+The latest, nightly version of JS debugger for an even better code debugging experience.
 
 25. Live Server
-// Launches a local dev server with live reload on save. Instant page refreshes = developer’s best friend.
+Launches a local dev server with live reload on save. Instant page refreshes = developer’s best friend.
 
 26. Lorem ipsum
-// Generates "Lorem ipsum" placeholder text for your designs and mockups. Fake it till you make it.
+Generates "Lorem ipsum" placeholder text for your designs and mockups. Fake it till you make it.
 
 27. Material Icon Theme
-// Changes file and folder icons in VS Code for better project feng shui.
+Changes file and folder icons in VS Code for better project feng shui.
 
 28. One Dark Pro
-// A sleek theme for your editor. Pro tip: stick with "One Dark Pro" variant.
+A sleek theme for your editor. Pro tip: stick with "One Dark Pro" variant.
 
 29. open in browser
-// Opens HTML files directly in your browser from VS Code. Zero clicks wasted.
+Opens HTML files directly in your browser from VS Code. Zero clicks wasted.
 
 30. Path Autocomplete
-// Suggests file and folder paths while you type, speeding up coding and preventing typos.
+Suggests file and folder paths while you type, speeding up coding and preventing typos.
 
 31. Path Intellisense
-// Boosts file path autocomplete across your project. Your fingers will thank you.
+Boosts file path autocomplete across your project. Your fingers will thank you.
 
 32. Prettier - Code formatter
-// Auto-formats your code according to Prettier standards. Cleaner code = happier you.
+Auto-formats your code according to Prettier standards. Cleaner code = happier you.
 
 33. px to rem & rpx & vw (cssrem)
-// Converts px to rem, rpx, or vw for responsive design without mental math.
+Converts px to rem, rpx, or vw for responsive design without mental math.
 
 34. Start git-bash
-// Launch Git Bash directly from VS Code. Git control at your fingertips.
+Launch Git Bash directly from VS Code. Git control at your fingertips.
 
 35. Svg Preview
-// Previews SVG files right inside the editor. No need to open browsers or cry.
+Previews SVG files right inside the editor. No need to open browsers or cry.
 
 36. CSS Peek
-// Hold Ctrl and click a class name in HTML to jump straight to its CSS rule. Like teleportation for developers.
+Hold Ctrl and click a class name in HTML to jump straight to its CSS rule. Like teleportation for developers.
 
 37. PHP Intelephense
-// Smart PHP syntax highlighting, autocomplete, go-to definitions, PHPDoc tips, code analysis — all the goodies for PHP devs.
+Smart PHP syntax highlighting, autocomplete, go-to definitions, PHPDoc tips, code analysis — all the goodies for PHP devs.
 
 38. PHP CS Fixer
-// Auto-formats your PHP code by style rules (PSR-12, Symfony, etc.). After install, run:
+Auto-formats your PHP code by style rules (PSR-12, Symfony, etc.). After install, run:
 composer global require friendsofphp/php-cs-fixer
 
 39. Code Spell Checker
-// Lightweight but powerful plugin that checks spelling inside code — variables, comments, strings.
+Lightweight but powerful plugin that checks spelling inside code — variables, comments, strings.
 
 40. Ukrainian - Code Spell Checker
-// Adds Ukrainian dictionary for the spell checker.
+Adds Ukrainian dictionary for the spell checker.
 
 41. Russian - Code Spell Checker
-// Adds Russian dictionary for the spell checker.
+Adds Russian dictionary for the spell checker.
 
 42. Tailwind CSS IntelliSense
-// A must-have plugin if you work with Tailwind CSS. Makes your life easier, faster, and happier.
+A must-have plugin if you work with Tailwind CSS. Makes your life easier, faster, and happier.
 
 43. Font Awesome Auto-complete & Preview
-// Adds autocomplete and live previews for Font Awesome icons directly inside your code editor.
+Adds autocomplete and live previews for Font Awesome icons directly inside your code editor.
 
 44. JavaScript (ES6) code snippets
-// Drops a treasure chest of ready-to-use JavaScript (ES6+) snippets into VS Code.
+Drops a treasure chest of ready-to-use JavaScript (ES6+) snippets into VS Code.
 
 45. Multiple clipboards for VSCode
-// Extends VSCode’s clipboard into a true multi-paste legend. Copy, copy, copy, paste, paste, paste.
+Extends VSCode’s clipboard into a true multi-paste legend. Copy, copy, copy, paste, paste, paste.
 
 46. SCSS Formatter
-// Auto-formats SCSS code for clean, structured, and human-readable styles.
+Auto-formats SCSS code for clean, structured, and human-readable styles.
 
 47. Error Lens
-// It highlights errors and warnings in bold right in your code, not just in the console.
+It highlights errors and warnings in bold right in your code, not just in the console.
 
-// --------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
 
 You can install these plugins all at once via the terminal, collecting them in a single file "install-extensions.sh", 
 and then enter the command: bash install-extensions.sh. 
@@ -208,12 +210,12 @@ code --install-extension ramsaydavid.vscode-multiple-clipboards
 code --install-extension adammaras.scss-formatter
 code --install-extension usernamehw.error-lens
 
-// --------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
 
 This is a list of settings that need to be done after installing the plugins. 
 Just copy and paste into your editor.
 
-// Settings settings.json:
+Settings settings.json:
 
 {
 	// Settings for "Git"
