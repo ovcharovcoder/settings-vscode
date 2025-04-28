@@ -125,19 +125,22 @@
 40. Ukrainian - Code Spell Checker
 // Словник української мови для редактора.
 
-41. Tailwind CSS IntelliSense
+41. Russian - Code Spell Checker
+// Словник російської мови для редактора.
+
+42. Tailwind CSS IntelliSense
 // Мастхев плагін для VS Code, якщо працюєш з Tailwind CSS. Робить твоє життя простішим і швидшим.
 
-42. Font Awesome Auto-complete & Preview
+43. Font Awesome Auto-complete & Preview
 // Цей плагін додає автодоповнення та прев’ю іконок Font Awesome прямо в редакторі. Працює з HTML, JSX, Vue тощо.
 
-43. JavaScript (ES6) code snippets
+44. JavaScript (ES6) code snippets
 // Цей плагін додає набір готових сніпетів для сучасного JavaScript (ES6+) у VS Code
 
-44. Multiple clipboards for VSCode
+45. Multiple clipboards for VSCode
 // Розширює стандартний буфер обміну VSCode до безсмертного багажа з копіпастами.
 
-45. SCSS Formatter
+46. SCSS Formatter
 // Автоматично вирівнює, структуризує та чистить SCSS-код, щоб він був читабельним і послідовним.
 
 
@@ -248,7 +251,7 @@
 	"php-cs-fixer.onsave": true,
 
 	// Settings for "Code Spell Checker"
-	"cSpell.language": "en,uk",
+	"cSpell.language": "en,uk,ru",
 	"cSpell.ignorePaths": ["**/node_modules/**", "**/dist/**", "**/.vscode/**"],
 	"editor.autoDetectLanguage": true,
 
