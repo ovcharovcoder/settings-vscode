@@ -162,7 +162,7 @@
 	"scss.format.spaceAroundSelectorSeparator": true,
 	"editor.cursorBlinking": "smooth",
 	"editor.cursorStyle": "line",
-	"editor.cursorWidth": 3,
+	"editor.cursorWidth": 2,
 	"editor.renderLineHighlight": "line",
 	"editor.suggestSelection": "first",
 	"editor.occurrencesHighlight": true,
