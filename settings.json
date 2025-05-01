@@ -125,7 +125,7 @@
 	],
 	"tailwindCSS.validate": true,
 
-        // Settings for "Error Lens"
+	// Settings for "Error Lens"
 	"errorLens.enabled": true,
 	"errorLens.errorColor": "#FF0000", // red
 	"errorLens.warningColor": "#FFA500", // orange
@@ -160,12 +160,20 @@
 	"css.format.spaceAroundSelectorSeparator": true,
 	"css.lint.float": "warning",
 	"scss.format.spaceAroundSelectorSeparator": true,
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorStyle": "line",
+	"editor.cursorWidth": 3,
+	"editor.renderLineHighlight": "line",
+	"editor.suggestSelection": "first",
+	"editor.occurrencesHighlight": true,
+	"editor.suggest.snippetsPreventQuickSuggestions": false,
+	"editor.snippetSuggestions": "top",
 	"scss.lint.float": "warning",
 	"php.validate.enable": true,
 	"oneDarkPro.bold": true,
 	"open-in-browser.default": "chrome",
 	"js/ts.implicitProjectConfig.checkJs": true,
-	"workbench.iconTheme": "material-icon-theme",
+	"workbench.iconTheme": "vscode-icons-mac",
 	"settingsSync.ignoredExtensions": ["equinusocio.vsc-material-theme"],
 	"editor.unicodeHighlight.ambiguousCharacters": false,
 	"workbench.colorTheme": "One Dark Pro",
@@ -184,5 +192,6 @@
 		"editor.wordWrap": "wordWrapColumn",
 		"editor.wordWrapColumn": 80
 	},
-	"editor.minimap.enabled": false
+	"editor.minimap.enabled": false,
+	"liveServer.settings.donotVerifyTags": true
 }
