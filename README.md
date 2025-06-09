@@ -20,4 +20,8 @@ The result? Your code looks cleaner, you work faster, make fewer mistakes, and i
   <li>Only after that — import the editor settings.</li>
 </ol>
 
+## ☕ Enjoyed the settings? 
+Treat the author to a coffee via [PayPal](https://www.paypal.com/donate/?business=datoshcode@gmail.com)
+
+
 <img src="1.jpg" alt="banner">
