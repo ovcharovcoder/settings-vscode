@@ -144,3 +144,6 @@ Auto-formats SCSS code for clean, structured, and human-readable styles.
 
 47. Error Lens
 It highlights errors and warnings in bold right in your code, not just in the console.
+
+48. PHP-enabled Live Local Server
+PHP Live Server
