@@ -119,14 +119,6 @@
     "javascriptreact": "javascript",
     "typescriptreact": "typescript"
   },
-  "tailwindCSS.experimental.configFile": "./tailwind.config.js",
-  "tailwindCSS.experimental.classRegex": [
-    ["tw`([^`]*)", 1],
-    ["tw=\"([^\"]*)", 1],
-    ["tw={\"([^\"}]*)", 1],
-    ["tw\\.\\w+`([^`]*)", 1],
-    ["['\"]([^'\"]*)['\"]", 1]
-  ],
   "tailwindCSS.validate": true,
 
   // Settings for "Error Lens"
